@@ -217,5 +217,4 @@ python -m pytest -v ./test_client.py
 Group 1  
 Group 3  
 Group 8  
-Group 11  
-Group 13  
+Group 11   
