@@ -216,5 +216,5 @@ python -m pytest -v ./test_client.py
 ### 3. Test Group Information  
 Group 1  
 Group 3  
-Group 8  
+Group 10  
 Group 11   
