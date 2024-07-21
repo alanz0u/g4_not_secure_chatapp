@@ -1,0 +1,60 @@
+###############################################
+#                  Group 4                    #
+###############################################
+#             Anlan Zou (a1899146)            #
+#     Czennen Trixter C Tamayo (a1904082)     #
+#           Yan Lok Chan (a1902578)           #
+#          Yu-Ting Huang (a1903622)           #
+###############################################
+#         WARNING: VULNERABLE VERSION         #
+###############################################
+
+# server_name: s4
+# chat_server:
+#   host: localhost
+#   port: 12342
+# exchange_server:
+#   host: localhost
+#   port: 5556
+# remote_servers:
+#   - name: s1
+#     host: 127.0.0.1
+#     port: 5555
+
+server_name: s1
+chat_server:
+  host: 10.13.124.5
+  port: 12345
+# exchange_server:
+#   host: localhost
+#   port: 5555
+# remote_servers:
+#   - name: s4
+#     host: 127.0.0.1
+#     port: 5556
+
+# server_name: s4
+# chat_server:
+#   host: localhost
+#   # host: 172.16.11.7
+#   port: 12342
+# exchange_server:
+#   # host: 10.13.101.145
+#   # host: 172.16.11.7
+#   host: localhost
+#   port: 5555
+#   - name: s1
+#     host: 10.13.84.131
+#     port: 5555
+  # - name: s3
+  #   host: 10.13.83.163
+  #   port: 5555
+  # # - name: s11
+  #   host: 10.13.101.178
+  #   port: 5555
+  # - name: s6
+  #   host: 10.13.81.121
+  #   port: 5555
+  # - name: s2
+  #   host: 10.13.89.245
+  #   port: 5555

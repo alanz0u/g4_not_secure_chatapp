@@ -1,0 +1,39 @@
+###############################################
+#                  Group 4                    #
+###############################################
+#             Anlan Zou (a1899146)            #
+#     Czennen Trixter C Tamayo (a1904082)     #
+#           Yan Lok Chan (a1902578)           #
+#          Yu-Ting Huang (a1903622)           #
+###############################################
+#         WARNING: VULNERABLE VERSION         #
+###############################################
+
+version: 1
+formatters:
+  simple:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  full:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(module)s - %(message)s'
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: simple
+    stream: ext://sys.stdout
+  file:
+    class: logging.handlers.RotatingFileHandler
+    level: DEBUG
+    filename: log/client.log
+    formatter: full
+    maxBytes: 5242880  # 5 megabytes in bytes
+    backupCount: 5
+loggers:
+  chat_client:
+    level: DEBUG
+    handlers: [console, file]
+    propagate: no
+# root:
+#   level: DEBUG
+#   handlers: [file]
+#   propagate: no
