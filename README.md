@@ -1,6 +1,7 @@
 # Secure Programming Project 2024 with backdoor
 ##### Group Number: 4
 ##### Group Member: Anlan Zou, Czennen Trixter Tamayo, Yan Lok Chan, Yu-Ting Huang
+##### GITHUB LINK: https://github.com/Con100H/g4_not_secure_chatapp
 
 ## Description
 <!-- A brief description of what the project is, what it does, and why it is useful. -->
@@ -39,7 +40,7 @@ To deactivate the environment:
 In the project root directory, run the following command in bash to setup the environment:
 ```bash
 python -m venv my_venv
-./my_venv/bin/activate
+source ./my_venv/bin/activate
 ```
 To deactivate the environment:
 ```bash
